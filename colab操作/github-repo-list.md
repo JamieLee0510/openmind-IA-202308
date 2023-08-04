@@ -14,5 +14,6 @@
 - 跟上面的code一樣，複製函數 `getGithubRepoByQuery`
     - 第一個參數代表想查詢的關鍵詞，ex：`"LLM"`
     - 第二個為要爬取的總頁數，由於一頁為100筆資料，加上github api的次數限制，大概30～40頁就好（而且已經以stars數做排序，所以越後面的repo星數越少）
+    - 第三個參數為「輸出的檔案名稱」
 - 運行完後，可以到旁邊的存儲空間下載輸出好的`.xlsm`檔
 ![image](https://i.imgur.com/kGfIAkM.png)
